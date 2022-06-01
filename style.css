@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color:#1f2937 ;
+    padding: 0 20%;
+    padding-top: 15px;
+    padding-bottom: 130px;
+    color: white;
+}
+
+.header{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 15px
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    justify-content: center;
+    width: 35%;
+    padding: 80px;
+    border-radius: 10px;
+   
+    
+}
+
+.awsome h2{
+    font-size: 48px;
+    font-weight: 900;
+    color:white ;
+}
+
+a{
+    color:white;
+
+}
+
+a:hover{
+    color: yellow;
+}
+
+.hero button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.hero button:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    
+    
+}
+
+.awsome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+}
+
+.info{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+  
+  
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+}
+
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.block p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    background-color: #e5e7eb;
+    padding: 100px 30%;
+}
+
+.quote div{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px 20%;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.action-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.action p,
+.action h2 {
+    color: white;
+}
+
+.action p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.action h2{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.sign-up button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 30px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.sign-up button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+}
+
+footer{
+    display: flex;
+    background-color:#1f2937 ;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+footer p{
+    color: white;
+}
